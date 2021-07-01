@@ -1581,9 +1581,11 @@ MonoBehaviour:
   eat: 1
   energy: 1
   moveSpeed: 30
+  isGround: 0
   StartState: {fileID: 11400000, guid: 8c35bdb27faabe6448e691d8112ed5ca, type: 2}
   EatState: {fileID: 11400000, guid: d4f073497a947314f8e2042a5f910a1f, type: 2}
   EnergyState: {fileID: 11400000, guid: e0e6d9fb00f706a4982f37a2fcecc1d5, type: 2}
+  JumpState: {fileID: 11400000, guid: 953823a38a6bd934abfe3dbfc7b77b32, type: 2}
   RandomMoveState: {fileID: 11400000, guid: 8c35bdb27faabe6448e691d8112ed5ca, type: 2}
   animator: {fileID: 0}
   CurrentState: {fileID: 0}
@@ -1803,7 +1805,7 @@ GameObject:
   - component: {fileID: 1948319262}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
