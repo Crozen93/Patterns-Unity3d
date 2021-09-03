@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/State(\u0421\u043E\u0441\u0442\u043E\u044F\u043D\u0438\u0435).unity"
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Singleton.unity
+    guid: ce4ac051a8961c4429db711e0fad045c
   m_configObjects: {}
